@@ -1,0 +1,16 @@
+.section{
+    color: aliceblue;
+    width: 50%;
+    float: left;
+    margin: 40px;
+}
+.section2{
+    color: aliceblue;
+    height: 600px;
+background-image:url(/images/wall6.jpg);
+background-size: 100%;
+padding: 140px 115px;
+}
+.main{
+    margin: 30px;
+}

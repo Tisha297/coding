@@ -1,0 +1,140 @@
+.background{
+     height: 490px;
+     background-color:#256886;
+}
+.background-2{
+  background-color: #80d0c7;
+   border-radius:0px 0px 90px 90px;
+}
+.section{
+     background-color:#437d97;
+     padding:13px 64px;
+     max-width: 90%;   
+}
+.text{
+     color: aliceblue;   
+}
+.section-search{
+     width:70%;
+     height: 60px;
+}
+.curve{
+       border-radius:90px 90px 90px 90px;
+}
+.section-card{
+     /* height:450px; */
+     float: left;
+}
+.back{
+     background-image: url(/images/businesswoman-using-tablet-analysis.jpg);
+     background-size: 170%;
+}
+.sec-btn{
+     padding:11px 0px;
+}
+.img-adjust{
+     padding: 100px 0px;
+}
+.sec-position{
+      position: absolute;
+     top: -80px;
+     left: 93px;
+     border-radius:30px 30px 30px 30px;
+}
+.sec-position-2{
+     position: absolute;
+     top:-80px ;
+     right:73px ;
+     border-radius:30px 30px 30px 30px;
+}
+@media screen and (max-width: 987px){
+     .section-card{
+          /* height: 300px; */
+          width: 27rem !important; 
+     }
+     .img-adjust{
+          padding: 0px 0px;
+     }
+     .sec-position{
+          top:-144px ;
+          left:137px ;
+     }
+     .sec-position-2{
+          top:179px ;
+          right: 150px;
+     }
+}
+@media screen and (max-width: 769px){
+     .section-card{
+          /* height: 300px; */
+          width: 27rem !important; 
+     }
+     .img-adjust{
+          padding: 0px 0px;
+     }
+     .sec-position{
+          top:-144px ;
+          left:49px ;
+     }
+     .sec-position-2{
+          top:179px ;
+          right: 60px;
+     }
+}
+@media screen and (max-width: 577px){
+     .section-card{
+          /* height: 300px; */
+          width: 25rem !important; 
+     }
+     .img-adjust{
+          padding: 0px 0px;
+     }
+     .sec-position{
+          top:-144px ;
+          left:75px ;
+     }
+     .sec-position-2{
+          top:179px ;
+          right: 65px;
+     }
+}
+.topic{
+     padding: 60px 36%;
+}
+.adjust-1{
+     padding:78px 0px ;
+}
+.adjust-2{
+     padding:76px 0px ;
+}
+.sec-card{
+  margin: 42px;
+  border-radius: 30px 30px 30px 30px;
+}
+.adjust-3{
+     padding: 80px 3px;
+}
+.adjust-4{
+     padding: 50px 0px;
+}
+.adjust-5{
+     padding: 98px 0px;
+}
+.adjust-6{
+     padding: 30px 0px;
+}
+.back-card{
+     background-color: #437d97;
+     border-radius: 30px 30px 30px 30px;
+}
+.adjust-finance{
+     padding: 62px 0px;
+}
+h1 {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-weight-bold);
+}
+:root {
+     --h1-font-size: 77px;
+     --font-weight-normal:400;
+}

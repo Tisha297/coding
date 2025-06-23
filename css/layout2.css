@@ -1,0 +1,131 @@
+.section{
+    width:100%; height:200px;
+    background-color:rgb(11, 38, 38);
+    border:solid 3px black;
+}
+.box1{
+    width:90%; height:190px;
+    background-color:rgb(18, 130, 130);
+    margin: 0 auto;
+    border:solid 4px black;
+}
+.box2{
+    width:40%; height:170px;
+    background-color: rgb(4, 57, 57);
+    float: left;
+    margin:5px;
+    border:solid 5px black;
+}
+.box3{
+    width:10%; height:90px;
+    background-color: rgb(8, 11, 11);
+    float: right;
+    margin:4%;
+}
+.row1{
+    width:99%; height: 83px;
+    background-color: aquamarine;
+    margin:2px;
+}
+.col1{
+    width:46%; height:70px;
+    background-color:brown;
+    margin:5px;
+    float: left;
+    border:2px solid rgb(5, 1, 1);
+}
+.col2{
+    width:47%; height:70px;
+    background-color:brown;
+    margin: 5px;
+    float: left;
+    border:2px solid rgb(14, 2, 2);
+}
+.section2{
+    width:100%; height:200px;
+    background-color: blue;
+    border:3px solid rgb(205, 1, 1);
+}
+.box4{
+    width: 90%; height:193px;
+    background-color: rgb(0, 0, 1);
+    margin:0 auto;
+    border:3px solid rgb(235, 231, 231);
+}
+.box5{
+    width:40%; height:182px;
+    background-color: beige;
+    margin:6px;
+}
+.box6{
+    width:80%; height:80px;
+    background-color: rgb(14, 80, 58);
+    border:3px solid rgb(132, 11, 225);
+}
+.section3{
+    width:100%; height: 200px;
+    background-color: rgb(2, 218, 95);
+}
+.box7{
+    width:90%; height:192px;
+    background-color: blueviolet;
+    margin:0 auto;
+    border: 3px solid black;
+}
+.smal{
+    width:30%; height:173px;
+    background-color: rgb(255, 85, 0);
+    margin:8px;
+    float: left;
+    border: 3px solid black;
+}
+.vs1{
+    width:94%; height:45px;
+    background-color:red;
+    margin:8px;
+    border: 3px solid black;
+}
+.vs2{
+    width:94%; height: 95px;
+    background-color: rgb(5, 53, 5);
+    margin: 8px;
+    border: 3px solid black;
+}
+.vss{
+    width:35%; height:60px;
+    background-color: gray;
+    margin:20px;
+    border: 3px solid black;
+    float: left;
+}
+.section4{
+    width:100%; height:200PX;
+    background-color:rgb(33, 32, 32);
+    border:3px solid black;
+}
+.box8{
+    width: 90%; height:195px;
+    background-color: rgb(72, 63, 63);
+    margin:3px auto;
+}
+.box9{
+    width: 28%; height:120px;
+    background-color: rgb(195, 182, 182);
+    margin:40px;
+    float: left;
+    border:3px solid black;
+}
+.box10{
+    width: 35%; height:120px;
+    background-color: rgb(195, 182, 182);
+    margin:40px;
+    float: right;
+    border:3px solid black;
+}
+.box11{
+    width: 40%; height:80px;
+    background-color:blue;
+    margin:15px;
+    float:left;
+    border:3px solid black;
+}

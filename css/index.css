@@ -1,0 +1,21 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+   }
+   /* tag selector  */
+        h1{
+            background: red;
+        } 
+        /* class selector  */
+        .tisha{
+            background-color: aqua;
+            color: blueviolet;
+        }
+        .zaim{
+            font-size: 28px;
+        }
+        /* id selector  */
+        #sabeena{
+            color: green;
+            font-weight: 800;
+        }

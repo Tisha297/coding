@@ -1,0 +1,47 @@
+
+
+.main-background{
+    height: 600px;
+    background-image: url(/images/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.section{
+    margin: 20px;
+}
+.search-sec{
+    border:solid 2px rgb(5, 36, 128);
+    border-radius: 10px 30px 30px 10px ;
+}
+.section-icon{
+    background-color: aliceblue;
+    background-image:url(/images/search\ icon.png);
+    background-repeat: no-repeat;
+    background-size:20px;
+    background-position: 150px;
+}
+.adjust{
+    padding:71px 32px;
+}
+.btn-adjust{
+    padding: 17px 36px;
+   border: solid 3px rgb(247, 247, 248);
+    color: rgb(238, 238, 246);
+}
+.btn-2{
+    padding:10px 37px;
+    border-radius: 20px 20px 20px 20px ;
+     background-color:rgb(47, 47, 214) ;
+     color: aliceblue;
+}
+.btn-2:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+.sec-block{
+    padding: 35px 29%;
+ 
+}
+.middle-btn{
+    padding: 34px 90px;
+}

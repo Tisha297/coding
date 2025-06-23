@@ -1,0 +1,18 @@
+.adjust-img{
+    width: 100%;
+}
+.section1{
+    color: white;
+}
+.slide-back2{
+    background-image:url(/images/wallpaper2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.text-1{
+  color: azure;
+  padding:150px 30%;
+}
+.adjust-img2{
+    width:94%;
+}
