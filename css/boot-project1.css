@@ -1,5 +1,5 @@
 .background{
-     height: 490px;
+     height: 590px;
      background-color:#256886;
 }
 .background-2{
@@ -8,8 +8,8 @@
 }
 .section{
      background-color:#437d97;
-     padding:13px 64px;
-     max-width: 90%;   
+     padding:13px 0px;
+     max-width: 102%;   
 }
 .text{
      color: aliceblue;   
@@ -22,7 +22,7 @@
        border-radius:90px 90px 90px 90px;
 }
 .section-card{
-     /* height:450px; */
+     height:450px;
      float: left;
 }
 .back{
@@ -49,52 +49,52 @@
 }
 @media screen and (max-width: 987px){
      .section-card{
-          /* height: 300px; */
+          height: 300px;
           width: 27rem !important; 
      }
      .img-adjust{
           padding: 0px 0px;
      }
      .sec-position{
-          top:-144px ;
+          top:-62px ;
           left:137px ;
      }
      .sec-position-2{
-          top:179px ;
+          top:258px ;
           right: 150px;
      }
 }
-@media screen and (max-width: 769px){
+@media screen and (max-width: 766px){
      .section-card{
-          /* height: 300px; */
+          height: 300px;
           width: 27rem !important; 
      }
      .img-adjust{
           padding: 0px 0px;
      }
      .sec-position{
-          top:-144px ;
-          left:49px ;
+          top:-78px ;
+          left:42px ;
      }
      .sec-position-2{
-          top:179px ;
-          right: 60px;
+          top:250px ;
+          right:59px;
      }
 }
 @media screen and (max-width: 577px){
      .section-card{
-          /* height: 300px; */
+          height: 300px;
           width: 25rem !important; 
      }
      .img-adjust{
           padding: 0px 0px;
      }
      .sec-position{
-          top:-144px ;
+          top:-93px ;
           left:75px ;
      }
      .sec-position-2{
-          top:179px ;
+          top:240px ;
           right: 65px;
      }
 }
@@ -105,23 +105,32 @@
      padding:78px 0px ;
 }
 .adjust-2{
-     padding:76px 0px ;
+     padding:82px 0px ;
 }
 .sec-card{
-  margin: 42px;
+  margin:9px;
   border-radius: 30px 30px 30px 30px;
 }
 .adjust-3{
-     padding: 80px 3px;
+     padding: 88px 3px;
 }
 .adjust-4{
-     padding: 50px 0px;
+     padding: 74px 0px;
 }
 .adjust-5{
      padding: 98px 0px;
 }
 .adjust-6{
-     padding: 30px 0px;
+     padding: 55px 0px;
+}
+.adjust-9{
+     padding: 27px 0px ;
+}
+.adjust-7{
+     padding: 108px 0px;
+}
+.adjust-8{
+     padding: 110px 0px;
 }
 .back-card{
      background-color: #437d97;
@@ -137,4 +146,7 @@ h1 {
 :root {
      --h1-font-size: 77px;
      --font-weight-normal:400;
+}
+.section-card-2{
+     float: left;
 }
