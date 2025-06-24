@@ -165,8 +165,16 @@ h1 {
      border-radius:50px 50px 50px 50px;
 }
 .spacing{
-     padding: 110px 46px;
+     padding: 84px 46px;
 }
 .box2{
-     padding: 0px 37%;
+     padding: 47px 37%;
+}
+.heading{
+     padding: 21px 33%;
+}
+.col-acc{
+     background-image: url(/images/faq_graphic.jpg);
+     background-size:300px;
+     background-repeat: no-repeat;
 }
