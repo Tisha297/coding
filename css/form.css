@@ -1,0 +1,35 @@
+.main-back{
+    margin: 45px;
+}
+.section{
+    color: rgb(240, 242, 244);
+    width: 50%;
+    float:right;
+    margin: 0px;
+}
+.sec{
+    padding: 33px 0px;
+}
+.box{
+    float: left;
+}
+.box2{
+    display: inline!important;
+    padding-left:2.25rem !important;
+}
+.box3{
+    padding: 11px 0px;
+}
+.date{
+    color:rgb(251, 248, 248);
+    padding: 0px 14px;
+}
+.box-file{
+    padding: 11px 14px;
+}
+.section-2{
+    background-color: rgb(246, 14, 137);
+    height: 750px;
+    padding: 28% 4%;
+    color: aliceblue;
+}
