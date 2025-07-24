@@ -9,6 +9,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/form.css">
+    <script src="./java/form.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -18,50 +19,56 @@
             <div>Username</div>
             <div class="row box3">
   <div class="col">
-    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    <input type="text"  id="fname" class="form-control" placeholder="First name" aria-label="First name">
+    <p style="color: red;" id="error-f"></p>
   </div>
   <div class="col">
-    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    <input type="text" id="lname" class="form-control" placeholder="Last name" aria-label="Last name">
+  <p style="color: red;" id="error-l"></p>
   </div>
 </div>
-        <form class="row g-3">
+    <div class="row g-3">
   <div class="col-12">
     <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4" placeholder="abc@gmail.com">
+    <input type="email" id="email" class="form-control" id="inputEmail4" placeholder="abc@gmail.com">
+  <p style="color: red;" id="error-e"></p>
   </div>
   <div class="col-md-6">
     <label for="inputPassword4" class="form-label">Password</label>
-    <input type="password" class="form-control" id="inputPassword4">
+    <input type="password" id="password" class="form-control" id="inputPassword4">
+    <p style="color: red;" id="error-p"></p>
   </div>
   <div class="px-3">Gender</div>
   <div class="box">
   <div class="form-check box2">
-  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
-  <label class="form-check-label" for="radioDefault1">
+  <input class="form-check-input" type="radio" name="gender"  id="radioDefault">
+  <label class="form-check-label"  for="radioDefault1">
     Male
   </label>
 </div>
 <div class="form-check box2">
-  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-  <label class="form-check-label" for="radioDefault2">
+  <input class="form-check-input" type="radio" name="gender" id="radioDefault" >
+  <label class="form-check-label" for="radioDefault2" >
     Female
   </label>
 </div>
 <div class="form-check box2">
-  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-  <label class="form-check-label" for="radioDefault2">
+  <input class="form-check-input" type="radio" name="gender" id="radioDefault">
+  <label class="form-check-label"  for="radioDefault3">
     Others
   </label>
   </div>
+   <p style="color: red;" id="rate"></p>
   </div>
   <div class="col-md-6">
     <label for="inputCity" class="form-label">state</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text"  id="state" class="form-control" id="inputCity">
+    <p style="color: red;" id="error-s"></p>
   </div>
   <div class="col-md-4">
     <label for="inputState" class="form-label">Country</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
+    <select id="country" class="form-select">
+      <option selected></option>
       <option>INDIA</option>
       <option>USA</option>
       <option>UK</option>
@@ -73,31 +80,36 @@
       <option>DUBAI</option>
       <option>FRANCE</option>
     </select>
+     <p style="color: red;" id="error-c"></p>
   </div>
   <div class="col-md-2">
     <label for="inputZip" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="inputZip">
+    <input type="text" id="pincode" class="form-control" id="inputZip">
+    <p style="color: red;" id="error-z"></p>
   </div>
   <label for="date" class="px-3">Date</label>
   <div class="date">
   <input type="date" id="date" class="box-date">
+  <p style="color: red;" id="error-d"></p>
   </div>
   <div class="box-file">
     <label for="file">Example file input</label>
     <input type="file" id="file">
+    <p style="color: red;" id="error-cf"></p>
   </div>
   <div class="col-12">
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
+      <input class="form-check-input" type="checkbox" id="gridCheck">   
+     <label class="form-check-label" for="gridCheck"></label>
         Check me out
       </label>
+       <p style="color: red;" id="error-ch"></p>
     </div>
   </div>
   <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
+    <button onclick="j()" type="submit" class="btn btn-primary">Sign in</button>
   </div>
-</form>
+</div>
         </div>
      </div>
      <div class="container-fluid section-2"><h1>Basic registration form fill it as per your details</h1></div>

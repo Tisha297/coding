@@ -25,4 +25,11 @@
     <!-- <script src="./js/myjs.js"></script> -->
 </body>
 </html>
-
+ let selectedcountry= document.querySelector('input[name="country"]:checked');
+    if(!selectedcountry){
+        document.getElementById("error-c").innerHTML="please select a country"
+    }
+    else{
+         document.getElementById("error-c").innerHTML=""
+    }
+    
